@@ -1,0 +1,132 @@
+:root{
+  --text-color:rgb(81, 116, 76);
+}
+
+body{
+    font-family: 'Playfair Display SC', serif;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 50px;
+   color: var(--text-color);
+   background-color: rgb(249,249,243);
+}
+
+.header_img_box {
+    display: grid;
+    height: 100%;
+    text-align: center;
+    position: relative;
+    margin-top: 1%;
+}
+.header_img {
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+}
+
+.logo{
+position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: clamp(1rem, 3vw + 1rem, 4rem);
+  color:rgb(104, 142, 98);
+  
+}
+
+.manze_tag{
+    text-align: center;
+}
+
+.manze_address{
+    text-align: center;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .opening_hours {
+    flex: 1;
+    margin-left: 2%;
+  }
+  
+  .img_logo {
+margin-right: 5%;
+  }
+  
+
+.food_img_container {
+    float: right;
+  margin-right: 1% ;
+  margin-left: 2%;
+  margin-top: 1%;
+  }
+
+.food_container{
+    text-align:right;
+}
+
+.food_reservation {
+    color: var(--text-color);
+    margin-top: 3%;
+    padding: 0.5%;
+    display: inline-block; /* Change display to inline-block */
+    border: 1px solid rgb(104, 142, 98);
+    margin-left: 45%;
+  }
+  
+a{
+    text-decoration: none;
+}
+.line_break_container{
+ width:80%;
+margin-left: 10%;
+}
+.line_break{
+    border: 1px solid rgb(104, 142, 98);
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+.about_img{
+    margin-left: 1%;
+    float: left;
+    margin-right: 2%;
+}
+
+.about_container{
+    text-align: center;
+}
+
+.line_break_container_2{
+    margin-top: 15%;
+    width:80%;
+    margin-left: 10%;
+}
+
+.fa{
+    padding: 10px;
+    font-size: 0px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+.fa-instagram {
+    background:  rgb(249,249,243);
+    color: rgb(81, 116, 76);
+  }
+
+footer a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+footer{
+    text-align: center;
+}
